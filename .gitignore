@@ -31,3 +31,6 @@
 # don't ignore .github
 !.github/
 !.github/**/*
+
+# don't ignore prelab
+!prelab/
