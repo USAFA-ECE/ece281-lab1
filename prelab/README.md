@@ -26,7 +26,7 @@
 ### Boolean Equation
 
 $$
-Y = ?
+Y = !AD + A!C!D + A!B!D
 $$
 
 ### Digital Simulations
