@@ -79,7 +79,7 @@
           <string>Y</string>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="1420"/>
+      <pos x="960" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -95,38 +95,6 @@ D as the least-significant bit.</string>
         </entry>
       </elementAttributes>
       <pos x="440" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1020" y="1160"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
@@ -169,108 +137,6 @@ D as the least-significant bit.</string>
       <pos x="720" y="340"/>
     </visualElement>
     <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="1040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1160" y="1160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="640"/>
-    </visualElement>
-    <visualElement>
       <elementName>Or</elementName>
       <elementAttributes>
         <entry>
@@ -282,7 +148,7 @@ D as the least-significant bit.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="1300"/>
+      <pos x="980" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -296,7 +162,27 @@ D as the least-significant bit.</string>
           </testData>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="280"/>
+      <pos x="1120" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="560"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -317,20 +203,12 @@ D as the least-significant bit.</string>
       <p2 x="720" y="320"/>
     </wire>
     <wire>
-      <p1 x="980" y="1260"/>
-      <p2 x="1040" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="1260"/>
-      <p2 x="1140" y="1260"/>
-    </wire>
-    <wire>
       <p1 x="480" y="320"/>
       <p2 x="480" y="340"/>
     </wire>
     <wire>
       <p1 x="480" y="380"/>
-      <p2 x="480" y="1200"/>
+      <p2 x="480" y="700"/>
     </wire>
     <wire>
       <p1 x="640" y="320"/>
@@ -338,27 +216,7 @@ D as the least-significant bit.</string>
     </wire>
     <wire>
       <p1 x="640" y="380"/>
-      <p2 x="640" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="1060" y="1380"/>
-      <p2 x="1060" y="1420"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="300"/>
-      <p2 x="460" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="320"/>
-      <p2 x="460" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="300"/>
-      <p2 x="620" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="320"/>
-      <p2 x="620" y="1200"/>
+      <p2 x="640" y="700"/>
     </wire>
     <wire>
       <p1 x="560" y="320"/>
@@ -366,7 +224,7 @@ D as the least-significant bit.</string>
     </wire>
     <wire>
       <p1 x="560" y="380"/>
-      <p2 x="560" y="1200"/>
+      <p2 x="560" y="700"/>
     </wire>
     <wire>
       <p1 x="720" y="320"/>
@@ -374,23 +232,27 @@ D as the least-significant bit.</string>
     </wire>
     <wire>
       <p1 x="720" y="380"/>
-      <p2 x="720" y="1200"/>
+      <p2 x="720" y="700"/>
     </wire>
     <wire>
-      <p1 x="1040" y="1260"/>
-      <p2 x="1040" y="1300"/>
+      <p1 x="960" y="760"/>
+      <p2 x="960" y="800"/>
     </wire>
     <wire>
-      <p1 x="1140" y="1240"/>
-      <p2 x="1140" y="1260"/>
+      <p1 x="460" y="300"/>
+      <p2 x="460" y="320"/>
     </wire>
     <wire>
-      <p1 x="980" y="1240"/>
-      <p2 x="980" y="1260"/>
+      <p1 x="460" y="320"/>
+      <p2 x="460" y="700"/>
     </wire>
     <wire>
-      <p1 x="1080" y="1260"/>
-      <p2 x="1080" y="1300"/>
+      <p1 x="620" y="300"/>
+      <p2 x="620" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="320"/>
+      <p2 x="620" y="700"/>
     </wire>
     <wire>
       <p1 x="540" y="300"/>
@@ -398,7 +260,7 @@ D as the least-significant bit.</string>
     </wire>
     <wire>
       <p1 x="540" y="320"/>
-      <p2 x="540" y="1200"/>
+      <p2 x="540" y="700"/>
     </wire>
     <wire>
       <p1 x="700" y="300"/>
@@ -406,7 +268,7 @@ D as the least-significant bit.</string>
     </wire>
     <wire>
       <p1 x="700" y="320"/>
-      <p2 x="700" y="1200"/>
+      <p2 x="700" y="700"/>
     </wire>
   </wires>
   <measurementOrdering/>
