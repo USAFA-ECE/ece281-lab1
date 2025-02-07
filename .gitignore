@@ -7,7 +7,7 @@
 
 # not prelab
 !prelab/
-!prelab/*
+!prelab/**
 
 # don't ignore hardware description files
 !src/
